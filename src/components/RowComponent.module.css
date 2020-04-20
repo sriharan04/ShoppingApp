@@ -3,7 +3,7 @@ li {
   height: 16rem;
   width: auto;
   display: grid;
-  grid-template-columns: minmax(9rem, 1fr) minmax(11rem, 1fr) 1fr;
+  grid-template-columns: minmax(8rem, 1fr) minmax(11rem, 1fr) 1fr;
   grid-template-rows: 7rem 2rem 4rem;
   border-bottom: 1px solid lightgray;
   background-color: white;
@@ -81,7 +81,7 @@ li:active {
 .cart {
   grid-column: 1/2;
   height: 2rem;
-  width: 7rem;
+  width: 6rem;
   background-color: #089aef;
   border-radius: 0.5rem;
   border: 1px solid white;

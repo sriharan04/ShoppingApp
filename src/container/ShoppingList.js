@@ -26,7 +26,6 @@ class ShoppingList extends Component {
       .then((res) => res.json())
       .then((prod) => {
         prod.map((el) => (el.qty = 0));
-        console.log(prod);
         this.setState({ products: prod });
       });
   }
