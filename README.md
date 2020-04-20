@@ -3,7 +3,7 @@
 
 <h1>Demo</h1>
 
-![](Activity_tracker_upload.gif)
+![](Shopping_app_upload.gif)
 
 
 
