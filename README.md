@@ -1,4 +1,3 @@
-# ShoppingApp
 <h1>ShoppingApp Reacjs(FrontEnd) with ServieceWorker</h1>
 
 
