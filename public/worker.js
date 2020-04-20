@@ -5,6 +5,7 @@ var urlsToCache = [
   "/index.html",
   "/manifest.json",
   "/products.json",
+  "https://shoppifycart.herokuapp.com/products.json",
 ];
 self.addEventListener("install", (event) => {
   // Perform install steps
