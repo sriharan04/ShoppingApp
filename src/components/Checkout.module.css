@@ -1,0 +1,40 @@
+.checkout_content {
+  grid-column: 2/3;
+  background-color: #089aef;
+  display: grid;
+  grid-template-columns: minmax(5rem, 29rem) minmax(10rem, 50rem);
+  grid-template-rows: 2rem 2.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+.checkout_qty {
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  padding: 0.2rem;
+  display: grid;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+.checkout_btn {
+  grid-row: 1/-1;
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: flex-end;
+  padding-right: 1rem;
+}
+.btn {
+  height: 2.5rem;
+  width: 15rem;
+  background-color: white;
+  color: #089aef;
+  border-radius: 0.5rem;
+  border: transparent;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 0.5rem;
+}

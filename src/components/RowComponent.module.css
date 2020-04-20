@@ -1,0 +1,123 @@
+li {
+  grid-column: 1/-1;
+  height: 16rem;
+  width: auto;
+  display: grid;
+  grid-template-columns: minmax(9rem, 1fr) minmax(11rem, 1fr) 1fr;
+  grid-template-rows: 7rem 2rem 4rem;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+li:hover,
+li:active {
+  box-shadow: 0px 2px 15px 4px rgba(15, 14, 14, 0.336);
+  z-index: 1;
+}
+.img_off {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: grid;
+  height: 10rem;
+  width: 11rem;
+  grid-template-rows: minmax(8rem, 10rem) 2rem;
+  justify-self: center;
+  margin-top: 2.5rem;
+}
+.img_off p {
+  grid-row: 2/3;
+  font-size: 1.1rem;
+  align-self: center;
+  padding: 0.5rem;
+  justify-self: center;
+  color: #ef1108;
+  font-weight: 600;
+}
+.img_off img {
+  grid-row: 1/2;
+  width: auto;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
+}
+.item_detail {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  padding: 0.2rem;
+  margin-top: 2.5rem;
+}
+.item_detail h4 {
+  font-size: 1.2rem;
+  color: #2d2c2c;
+  font-weight: 900;
+}
+.item_detail_main {
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  color: black;
+}
+.item_detail_sub p {
+  color: black;
+  font-size: 0.9rem;
+  padding-top: 0.3rem;
+}
+.line {
+  text-decoration: line-through;
+}
+.offer_price {
+  font-weight: 900;
+  color: #21d02d;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+}
+.add_to_cart {
+  grid-column: 2/-1;
+  grid-row: 3/-1;
+  display: grid;
+  grid-template-columns: minmax(5rem, 8rem) repeat(3, minmax(1.5rem, 2rem));
+  font-weight: 700;
+  padding-top: 5rem;
+  align-self: center;
+}
+.cart {
+  grid-column: 1/2;
+  height: 2rem;
+  width: 7rem;
+  background-color: #089aef;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 0.3rem;
+  color: white;
+}
+.plus {
+  grid-column: 2/3;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: white;
+  font-size: 1.5rem;
+  border: 1px solid #089aef;
+  justify-self: center;
+  color: #089aef;
+}
+
+.plus + p {
+  grid-column: 3/4;
+  padding-top: 0.5rem;
+  text-align: center;
+  color: #3a2e2e;
+}
+.minus {
+  font-size: 1.5rem;
+  grid-column: 4/5;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: white;
+  font-size: 1.5rem;
+  border: 1px solid #089aef;
+  justify-self: center;
+  color: #089aef;
+}

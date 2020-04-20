@@ -1,0 +1,22 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(20rem, 1fr);
+  grid-template-rows: 5rem auto 4rem;
+}
+
+.shopping_list {
+  background-color: white;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+}
+.list_item {
+  display: grid;
+  grid-template-columns: minmax(8rem, 1fr) minmax(12rem, 1fr);
+  grid-template-rows: auto;
+}
