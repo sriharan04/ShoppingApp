@@ -2,7 +2,7 @@
   grid-column: 2/3;
   background-color: #089aef;
   display: grid;
-  grid-template-columns: minmax(5rem, 29rem) minmax(10rem, 50rem);
+  grid-template-columns: minmax(1rem, 29rem) minmax(10rem, 50rem);
   grid-template-rows: 2rem 2.5rem;
   position: fixed;
   width: 100%;
@@ -29,7 +29,7 @@
 }
 .btn {
   height: 2.5rem;
-  width: 15rem;
+  width: 13rem;
   background-color: white;
   color: #089aef;
   border-radius: 0.5rem;
