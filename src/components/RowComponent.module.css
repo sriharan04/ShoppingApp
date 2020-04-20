@@ -75,7 +75,7 @@ li:active {
   display: grid;
   grid-template-columns: minmax(5rem, 8rem) repeat(3, minmax(1.5rem, 2rem));
   font-weight: 700;
-  padding-top: 5rem;
+  margin-top: 7rem;
   align-self: center;
 }
 .cart {
