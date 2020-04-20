@@ -4,7 +4,6 @@ var urlsToCache = [
   "/favicon.ico",
   "/index.html",
   "/manifest.json",
-  "/products.json",
   "https://shoppifycart.herokuapp.com/products.json",
 ];
 self.addEventListener("install", (event) => {
@@ -22,6 +21,7 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then(function (response) {
       // Cache hit - return response
+      console.log("Check response");
       if (response) {
         return response;
       }
