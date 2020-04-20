@@ -1,10 +1,9 @@
 var CACHE_NAME = "pwa-task-manager";
 var urlsToCache = [
   "/",
-  "/favicon.io",
+  "/favicon.ico",
   "/index.html",
-  "/mainfest.json",
-  "/service-worker.js",
+  "/manifest.json",
   "/products.json",
 ];
 self.addEventListener("install", (event) => {
